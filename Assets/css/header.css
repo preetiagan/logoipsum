@@ -1,0 +1,146 @@
+
+/* goggle fonts Lexend Deca */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Deca:wght@100..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F2F7FA;
+}
+.wrapper-container{
+    max-width:1440px;
+     margin:0 auto;
+}
+
+.root,body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+.h1-main{
+   font-family: 'calibri';
+    font-size: 74px;
+    color:#000000;
+    font-weight: 700;
+    line-height: 118%;
+}
+.para-main{
+   font-family: "lexend deca";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 115.99999999999999%;   
+}
+    @font-face {
+        font-family: 'calibri';
+        src: url('../calibri-font-family/calibri-bold.ttf') format('truetype');
+             
+        font-weight:600; 
+     
+    }
+
+/* here the navbar css */
+.container{
+    max-width:1650px;
+    margin:0 auto;
+    padding-top:34px;
+    padding-bottom: 70px;
+}
+.nav-div-main{
+    display:flex;
+    gap: 190px;
+    align-items: center;
+}
+.nav-ul-listitems{
+    display: flex;
+    gap:120px;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 18px;
+}
+.nav-listitems{
+      padding-right: 169px
+}
+.logo{
+margin:0 auto;
+    object-fit: cover;
+}
+.navlogo{
+    max-width: 189px;
+}
+.nav-li a:hover{
+    color:#004C5E;
+    text-decoration: underline;
+
+
+}
+.nav-li a{
+    color:#464C51;
+    font-family: "lexend deca";
+    font-size: 18px;
+    font-weight: 300;
+     text-decoration: none;
+     text-decoration-color: #004C5E;
+}
+.nav-login{
+    display:flex;
+    gap:15px;
+}
+.login{
+    max-width:100px;
+    border-radius: 80px;
+    border: 1px solid #004C5E;
+    color:#004C5E;
+    background-color: transparent;
+ padding: 11px 25px;
+ cursor:pointer;
+ font-family: "lexend deca";
+    font-size: 14px;
+    font-weight: 300;
+}
+.signup{
+    max-width:100px;
+    border-radius: 80px;
+    color:#ffffff;
+    background-color: #004C5E;
+     padding: 11px 23px ;
+     cursor:pointer;
+     font-family: "lexend deca";
+    font-size: 14px;
+    font-weight: 300;
+}
+/* here the section 1 csss */
+.section-wrapper-main{
+    max-width:1320px;
+}
+.wrapper-section1{
+    display:flex;
+    align-items: right;
+}
+.bluecolorimg{
+    position:relative;
+    max-width: 562px;
+    object-fit: cover;
+}
+.whitecolorimg{
+    position:relative;
+    max-width: 466px;
+}
+.ladyphotoimg{
+       position: absolute;
+    top: 144px;
+    right: 477px;
+    max-width: 385px;
+}
+.paragraph-wrapper{
+    max-width:597px;
+}
+
+
+
+
+
+
