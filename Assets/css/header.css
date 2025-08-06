@@ -67,6 +67,7 @@ body{
 .logo{
 margin:0 auto;
     object-fit: cover;
+    cursor:pointer;
 }
 .navlogo{
     max-width: 189px;
@@ -100,6 +101,15 @@ margin:0 auto;
  font-family: "lexend deca";
     font-size: 14px;
     font-weight: 300;
+}
+.login:hover{
+    background-color:#004C5E;
+    color:#ffffff;
+}
+.signup:hover{
+    background-color: transparent;
+    color:#004C5E;
+  border: 1px solid #004C5E;
 }
 .signup{
     max-width:100px;
