@@ -1,0 +1,163 @@
+
+/* here the section 3 css */
+.inner-wrapper-section3{
+    display:flex;
+}
+.inner-right-card-section3{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    max-width: 242px;
+   height:auto;
+   padding:24px 35px;
+}
+.tvicon{
+    max-width:23px;
+    padding-bottom:17px;
+}
+.section3-h6{
+font-family:Lexend Deca;
+font-weight: 400;
+font-size: 18px;
+max-width: 183px;
+}
+.section3-para{
+font-weight: 400;
+font-size:11px;
+}
+.inner-right-section3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+}
+.inner-content-section3{
+    width:39%;
+    align-content:center;
+}
+/* here the section4 starts */
+.wrapper-section4{
+    max-width:100%;
+    background-color: #004C5D;
+    padding:70px;
+    position:relative;
+}
+.inner-wrapper-section4{
+    display: flex;
+    align-content: center;
+}
+.section4topimg{
+position:relative;
+border:2px solid #ffffff;
+border-radius: 10px;
+}
+.section4bottomimg{
+ 
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: -90px 0 0 -210px;
+    position: relative;
+}
+.inner-wrapper-content-section4{
+    align-content: center;
+    padding-top:75px;
+}
+.inner-wrapper-img-section4 {
+    padding-left: 228px;
+}
+/* here section6 starts */
+.wrapper-top-main{
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top:50px;
+}
+/* here the section 7 css */
+.wrapper-section7{
+    width:100%;
+    background-color: #8E98A154;
+    padding:24px;
+}
+.slider-products{
+    display: flex;
+    gap:40px;
+}
+.productimg1{
+    max-width:149px;
+    cursor:pointer;
+}
+.productimg2{
+    max-width:174px;
+    cursor:pointer;
+}
+.productimg3{
+    max-width:217px;
+    cursor:pointer;
+}
+.productimg4{
+    max-width:113px;
+    cursor:pointer;
+}
+.productimg5{
+    max-width:103px;
+    cursor:pointer;
+}
+/* here the section 5 css */
+.wrapper-section5{
+    width:100%;
+}
+.slider-portfolio-card{
+    max-width:290px;
+    background-color: #004C5D;
+    border-radius:20px;
+    padding:11px;
+}
+.portfolioinnerimg{
+    max-width:265px;
+    cursor:pointer;
+}
+.para-portfolio{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 16px;
+    color:#ffffff;
+    cursor:pointer;
+}
+.h3-portfolio{
+    padding-top:20px;
+    font-size: 28px;
+ font-family: Lexend Deca;
+    font-weight: 400;
+    color:#ffffff;
+    cursor:pointer;
+}
+.slider-portfolio{
+   gap:20px;
+    display: flex;
+}
+.portfolionew{
+    padding-top:85px;
+}
+.portfolionew1{
+    padding-bottom:85px;
+}
+/* here the section6 starts */
+.wrapper-section6{
+    display: flex;
+    max-width:1440px;
+    margin:0 auto;
+}
+.wrapper-section{
+    width:100%;
+    background-color:#004C5D;
+    padding:100px;  
+}
+.inner-wrapper-left-section6{
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+    border-right: 3px solid #beb9b9 ;
+    
+    padding-right:100px;
+}
+.div{
+    cursor:pointer;
+}
