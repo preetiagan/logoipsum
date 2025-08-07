@@ -22,48 +22,76 @@ body{
 }
 .h1-main{
    font-family: 'calibri';
-    font-size: 74px;
+    font-size: 72px;
     color:#000000;
     font-weight: 700;
     line-height: 118%;
+    cursor:pointer;
+}
+.h2-main{
+  font-family: 'calibri';
+    font-size: 60px;
+    color:#ffffff;
+    font-weight: 700;
+    line-height: 96%;
+    cursor:pointer;  
+    max-width:506px;
 }
 .para-main{
    font-family: "lexend deca";
     font-size: 24px;
     font-weight: 400;
     line-height: 115.99999999999999%;   
+    cursor:pointer;
 }
-    @font-face {
+.para-main1{
+   font-family: "lexend deca";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 115.99999999999999%;   
+    cursor:pointer;
+   
+}
+.para-main2{
+     font-family:"Lexend Deca";
+    font-size:20px;
+    color:#ffffff;
+    font-family: "lexend deca";
+    font-weight: 400;
+    line-height: 115.99999999999999%;   
+    cursor:pointer;
+    opacity: 60%;
+     max-width:600px;
+     padding-bottom: 10px;
+}
+ @font-face {
         font-family: 'calibri';
         src: url('../calibri-font-family/calibri-bold.ttf') format('truetype');
              
         font-weight:600; 
-     
-    }
+ }
 
 /* here the navbar css */
 .container{
-    max-width:1650px;
+    max-width:1240px !important;
     margin:0 auto;
     padding-top:34px;
     padding-bottom: 70px;
 }
 .nav-div-main{
     display:flex;
-    gap: 190px;
-    align-items: center;
+  align-items: center;
+    justify-content: space-between;
 }
 .nav-ul-listitems{
     display: flex;
-    gap:120px;
+    gap:70px;
     list-style-type: none;
     text-decoration: none;
     align-items: center;
     padding-top: 18px;
 }
-.nav-listitems{
-      padding-right: 169px
-}
+
 .logo{
 margin:0 auto;
     object-fit: cover;
@@ -75,8 +103,6 @@ margin:0 auto;
 .nav-li a:hover{
     color:#004C5E;
     text-decoration: underline;
-
-
 }
 .nav-li a{
     color:#464C51;
@@ -123,31 +149,6 @@ margin:0 auto;
     font-weight: 300;
 }
 /* here the section 1 csss */
-/* .section-wrapper-main{
-    max-width:1320px;
-}
-.wrapper-section1{
-    display:flex;
-    align-items: right;
-}
-.bluecolorimg{
-    position:relative;
-    max-width: 562px;
-    object-fit: cover;
-}
-.whitecolorimg{
-    position:relative;
-    max-width: 466px;
-}
-.ladyphotoimg{
-       position: absolute;
-    top: 144px;
-    right: 477px;
-    max-width: 385px;
-}
-.paragraph-wrapper{
-    max-width:597px;
-} */
 .wrapper-section1{
     display:flex;
     align-items: right;
@@ -163,14 +164,10 @@ margin:0 auto;
 .section-wrapper-main{
     max-width:1320px;
 }
-
-
-
 .whitecolorimg-wrapper {
     position: relative;
     z-index: 2;
 }
-
 .whitecolorimg-wrapper::before {
   content: "";
   position: absolute;
@@ -183,8 +180,8 @@ margin:0 auto;
   background-size: cover;
   background-position: center;
   z-index: 1; 
-   border-top-left-radius: 333px;
-  border-bottom-left-radius: 333px;
+   border-top-left-radius: 281px;
+  border-bottom-left-radius: 281px;
 }
 
 .whitecolorimg {
@@ -192,13 +189,77 @@ margin:0 auto;
   z-index: 2; 
   
 }
-
-
 .ladyphotoimg {
     position: absolute;
     top: -42px;
     right: 41px;
     z-index: 3;
 } 
+.button-wrapper-main{
+    background-color:#004C5D;
+    max-width:381px;
+    border-radius: 20px;
+    padding:9px;
+}
+.btn-getstarted{
+    color:#FFAE2E;
+    font-family:lexend deca;
+    font-weight:300;
+    font-size:14px;
+    background-color:#ffffff;
+    padding:11px 31px;
+    border-radius: 80px;
+cursor: pointer;
+}
+.button-wrapper-main{
+    display: flex;
+    gap:42px;
+    align-items: center;
+   
+}
+.inner-button-right{
+    display: flex;
+    gap:6px;
+    align-items: center;
+}
+.videoiconimg{
+    max-width:39px;
+    object-fit:fill;
+    cursor: pointer;
+}
+.para-see{
+    font-family:lexend deca;
+    font-weight: 300;
+    font-size:14px;
+    color:#ffffff;
+    margin-top:0;
+    margin-bottom:0;
+    cursor:pointer;
+}
+.para-main{
+    max-width:630px;
+    padding-bottom:10px;
+}
+/* here the  section 2 css */
+.btn-main{
+    color:#004C5D;
+    background-color: #FFAE2E;
+    border-radius: 80px;
+    box-shadow: 1px 1px 15px 0px #00000059;
+    padding:11px 41px;
+    border:#FFAE2E;
+cursor: pointer;
+font-weight: 400;
+font-size: 14px;
+line-height:100%;
+letter-spacing:0;
 
-
+}
+.inner-wrapper-section2{
+    display: flex;
+    gap:62px;
+    align-items: center;
+}
+.inner-image-left-section2{
+    max-width:530px;
+}
