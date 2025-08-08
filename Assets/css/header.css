@@ -72,11 +72,15 @@ body{
  }
 
 /* here the navbar css */
+nav{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .container{
     max-width:1240px !important;
     margin:0 auto;
-    padding-top:34px;
-    padding-bottom: 70px;
+       padding-top: 16px;
+    padding-bottom: 16px;
+   
 }
 .nav-div-main{
     display:flex;
@@ -102,7 +106,7 @@ margin:0 auto;
 }
 .nav-li a:hover{
     color:#004C5E;
-    text-decoration: underline;
+  
 }
 .nav-li a{
     color:#464C51;
@@ -111,6 +115,16 @@ margin:0 auto;
     font-weight: 300;
      text-decoration: none;
      text-decoration-color: #004C5E;
+}
+.nav-li a.home{
+   color:#464C51;
+    font-family: "lexend deca";
+    font-size: 18px;
+    font-weight: 600;
+    color:#004C5E;
+     text-decoration:underline;
+     text-decoration-thickness: 2px;
+     text-decoration-color: #004C5E; 
 }
 .nav-login{
     display:flex;
@@ -147,8 +161,15 @@ margin:0 auto;
      font-family: "lexend deca";
     font-size: 14px;
     font-weight: 300;
+    border:1px solid transparent; 
+}
+.sticky-top{
+    background-color:#F2F7FA ;
 }
 /* here the section 1 csss */
+.section1{
+    padding-top: 70px;
+}
 .wrapper-section1{
     display:flex;
     align-items: right;
