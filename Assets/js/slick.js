@@ -15,5 +15,15 @@ $('.slider-portfolio').slick({
   slidesToShow: 4,
   slidesToScroll:1,
   dots:true,
+  arrows:false,
 });
+   $(".tab").click(function(){
+        var tabId = $(this).data("tab");
+
+        $(".tab").removeClass("active");
+        $(this).addClass("active");
+
+        $(".review-panel").removeClass("active");
+        $("#tab-" + tabId).addClass("active");
+    });
 });
