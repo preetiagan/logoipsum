@@ -20,30 +20,44 @@
 </head>
 <body>
 
-    <!-- here the header section starts -->
-     <header>
-        <nav class="sticky-top">
-            <div class="container">
-              <div class="nav-div-main">
-                <div class="navlogo">
-                    <img class="logo" src="./Assets/images/headerimage/logomain.png">
-                </div>
-                <div class="nav-listitems">
-                    <ul class="nav-ul-listitems">
-                        <li class="nav-li"><a class="home" href=#>HOME</a></li>
-                         <li class="nav-li"><a href=#>SERVICES</a></li>
-                          <li class="nav-li"><a href=#>CONTACT</a></li>
-                           <li class="nav-li"><a href=#>ABOUT</a></li>
-                    </ul>
-                </div>
-                <div class="nav-login">
-                    <button class="login">Log In</button>
-                    <button class="signup">Sign up</button>
-                </div>
-              </div>
+<!-- here the header starts -->
+       <header>
+        <nav class="sticky-top"> 
+    <div class="container">
+        <div class="nav-div-main">
+            <div class="navlogo">
+                <img class="logo" src="./Assets/images/headerimage/logomain.png" alt="mainlogo">
             </div>
-        </nav>
-  <!-- here teh section 1 starts -->
+
+            <!-- Hamburger Icon -->
+            <div class="nav-toggler active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="nav-listitems">
+                <ul class="nav-ul-listitems">
+                    <li class="nav-li"><a class="home" href="#">HOME</a></li>
+                    <li class="nav-li"><a href="#">SERVICES</a></li>
+                    <li class="nav-li"><a href="#">CONTACT</a></li>
+                    <li class="nav-li"><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <!-- Login/Signup Buttons -->
+            <div class="nav-login">
+                <button class="login">Log In</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+  <!-- here the section 1 starts -->
         <section class="section1">
   <div class="container">
     <div class="section-wrapper-main">
@@ -62,39 +76,8 @@
                 <button class="btn-getstarted">Get Started</button>
             </div>
         <div class="inner-button-right">
-            <img class="videoiconimg" src="./Assets/images/headerimage/videoicon.png">
-
-            <!-- here the video popup starts -->
-            <section class="popup">
-    <div class="popup__content" >
-      <div class="close">
-        <span></span>
-        <span></span>
-      </div>
-      <!-- <video controls width="600">
-        <source
-            src=
-          "./Assets/images/headerimage/officevideo.mp4"
-            type="video/mp4">
- 
-    </video> -->
-    <iframe src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1&mute=1" width="800px" height="400px" style="border:none;" ></iframe>
-    
-    </div>
-  </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script>
-   
-    $(".close").click(function() {
-      $(".popup").fadeOut(500);
-    });
-     $(".videoiconimg").click(function() {
-      $(".popup").fadeIn(300);
-    });
-  </script> 
-  
-<!-- here the video popup ends -->
-            <p class="para-see">See how it worked</p>
+            <img class="videoiconimg" src="./Assets/images/headerimage/videoicon.png" alt="videoimage">
+ <p class="para-see">See how it worked</p>
         </div>
         </div>
         </div>
@@ -110,12 +93,12 @@
     </div>
   </div>
 </section>
-<!-- here the section 2 starts -->
- <section class="section1">
+  <!-- here the section 2 starts -->
+ <section class="section2">
     <div class="container">
         <div class="inner-wrapper-section2">
             <div class="inner-img-section2">
-                <img class="inner-image-left-section2" src="./Assets/images/headerimage/imagesection2.png">
+                <img class="inner-image-left-section2" src="./Assets/images/headerimage/imagesection2.png" alt="section2image">
             </div>
             <div class="inner-content-section2">
                 <h1 class="h1-main">Why choose us?</h1>
@@ -127,8 +110,8 @@ Aenean at purus velit. </p>
         </div>
     </div>
  </section>
- <!-- here the section 3 starts -->
-  <section class="section1">
+<!-- here the section 3 starts -->
+  <section class="section3">
     <div class="container">
     <div class="inner-wrapper-section3">
         <div class="inner-content-section3">
@@ -140,32 +123,32 @@ Aenean at purus velit. </p>
         </div>
         <div class="inner-right-section3">
             <div class="inner-right-card-section3">
-               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
             <div class="inner-right-card-section3">
-                <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+                <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
             <div class="inner-right-card-section3">
-               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
             <div class="inner-right-card-section3">
-               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
             <div class="inner-right-card-section3">
-                <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+                <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
             <div class="inner-right-card-section3">
-               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png"></div>
+               <div class="img-wrap"> <img class="tvicon" src="./Assets/images/headerimage/tvicon1.png" alt="tv icon"></div>
                 <h6 class="section3-h6">Lorem Ipsum<br><p class="section3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor.</p></h6>
                 
             </div>
@@ -173,15 +156,14 @@ Aenean at purus velit. </p>
     </div>
   </div>
   </section>
-
-  <!-- here the section4 starts -->
-   <section class="section1">
+    <!-- here the section4 starts -->
+   <section class="section4">
     <div class="wrapper-section4">
       <div class="container">
       <div class="inner-wrapper-section4">
         <div class="inner-wrapper-img-section4">
-          <img class="section4topimg" src="./Assets/images/headerimage/section4topimg.png">
-          <img class="section4bottomimg" src="./Assets/images/headerimage/section4bottomimg.png">
+          <img class="section4topimg" src="./Assets/images/headerimage/section4topimg.png" alt="section4 top officeimage">
+          <img class="section4bottomimg" src="./Assets/images/headerimage/section4bottomimg.png" alt="section4 bottomofficeimage">
         </div>
         <div class="inner-wrapper-content-section4"><h1 class="h2-main">Lorem ipsum dolor 
 sit amet.</h1>
@@ -191,8 +173,8 @@ sit amet.</h1>
       </div>
     </div>
    </section>
-<!-- here the section5 starts -->
- <section class="section1">
+  <!-- here the section5 starts -->
+ <section class="section5">
    <div class="wrapper-top-main">
         <h1 class="h1-main">Our Portfolio</h1>
       </div>
@@ -203,41 +185,41 @@ sit amet.</h1>
 
 
   <div class="portfolionew1"><div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div></div>
 
 <div class="portfolionew">
   <div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 </div>
 
   <div class="portfolionew1"><div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div></div>
 <div class="portfolionew">
   <div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 </div>
 
   <div class="portfolionew1"><div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div></div>
 
 <div class="portfolionew">
   <div class="slider-portfolio-card ">
-<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png">
+<img class="portfolioinnerimg" src="./Assets/images/headerimage/portfolioinnerimg.png" alt="card image">
 <h3 class="h3-portfolio">Lorem ipsum</h3>
 <p class="para-portfolio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
@@ -248,12 +230,8 @@ sit amet.</h1>
         </div>
       </div>
  </section>
-
-
-
-
    <!-- here the section6 starts -->
-    <section class="section1">
+    <section class="section6">
       <div class="wrapper-top-main">
         <h1 class="h1-main">Customer’s Review</h1>
       </div>
@@ -306,39 +284,40 @@ sit amet.</h1>
 </div>
 
     </section>
-    <!-- here the section7 starts -->
-     <section class="section1">
+   <!-- here the section7 starts -->
+     <section class="section7">
       <div class="wrapper-top-main"> <h1 class="h1-main">Our Partners</h1>
       </div>
       <div class="wrapper-section7">
 <div class="slider-products">
-    <img class="productimg1" src="./Assets/images/headerimage/partner1.png">
-  <img class="productimg2" src="./Assets/images/headerimage/partner2.png">
-  <img class="productimg3" src="./Assets/images/headerimage/partner3.png">
-  <img class="productimg4" src="./Assets/images/headerimage/partner4.png">
-  <img class="productimg5" src="./Assets/images/headerimage/partner5.png">
-    <img class="productimg2" src="./Assets/images/headerimage/partner2.png">
-    
+    <img class="productimg1" src="./Assets/images/headerimage/partner1.png" alt="sliderimage">
+  <img class="productimg2" src="./Assets/images/headerimage/partner2.png" alt="sliderimage">
+  <img class="productimg3" src="./Assets/images/headerimage/partner3.png" alt="sliderimage">
+  <img class="productimg4" src="./Assets/images/headerimage/partner4.png" alt="sliderimage">
+  <img class="productimg5" src="./Assets/images/headerimage/partner5.png" alt="sliderimage">
+    <img class="productimg2" src="./Assets/images/headerimage/partner2.png" alt="sliderimage">
+     <img class="productimg1" src="./Assets/images/headerimage/partner1.png" alt="sliderimage">
+     <img class="productimg3" src="./Assets/images/headerimage/partner3.png" alt="sliderimage">
 
       </div>
 </div>
      </section>
-
-     <!-- here the section8 starts -->
-      <section class="section1">
+  <!-- here the section8 starts -->
+      <section class="section8">
 <div class="wrapper-top-main"> <h1 class="h1-main">Our Newsletter</h1>
   <p class="newsletter-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus est vel lacinia porttitor. Aenean at purus velit. </p>
-  <div class="container">
+  <div class="newsletter-container">
     <div class="form-container">
    <form
   action="https://formspree.io/f/myzpboeg"
   method="POST"
 >
         <div class="name-fields">
-            <input type="text" name="First Name" placeholder="First Name" required>
-            <input type="text" name="Last Name" placeholder="Last Name" required>
+           
+            <input type="text" id="name" name="First Name" placeholder="First Name" required>
+            <input type="text" id="name"name="Last Name" placeholder="Last Name" required>
         </div>
-        <input type="email" name="Email" placeholder="Enter your E-mail" required>
+        <input type="email" id="email" name="Email" placeholder="Enter your E-mail" required>
         <textarea name="Message" placeholder="Type your message...." required></textarea>
         <button type="submit">Submit</button>
     </form>
@@ -346,7 +325,7 @@ sit amet.</h1>
   </div>
       </div>
       </section>
-     </header>
+   </header>
      <!-- here the header section ends -->
 
 
@@ -358,7 +337,7 @@ sit amet.</h1>
             <div class="wrapper-footer-left">
               <div class="wrapper-footer-left-inner">
 
-               <div class="footer-img"><img src="./Assets/images/footerimage/logofooter.png"></div>
+               <div class="footer-img"><img src="./Assets/images/footerimage/logofooter.png" alt="logofooterimage"></div>
 <div class="footer-para"><p class="footer-para-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Curabitur consectetur, arcu non tincidunt aliquam, dolor 
 libero fermentum mauris, at vulputate urna tortor sed dui. 
@@ -366,12 +345,12 @@ Vestibulum faucibus pellentesque arcu, dapibus dignissim
 lectus tristique a. Ut luctus eros sapien, sed rutrum arcu 
 egestas ac.</p></div>
 <div class="footer-icon">
-  <p class="follow-footer"><b>Follow us on</b></p>
+  <p class="follow-footer">Follow us on</p>
   <div class="footer-icon-social">
-    <img src="./Assets/images/footerimage/twitter.png">
-  <img src="./Assets/images/footerimage/facebook.png">
-  <img src="./Assets/images/footerimage/instagram.png">
-  <img src="./Assets/images/footerimage/youtube.png">
+    <img src="./Assets/images/footerimage/twitter.png" alt="twitterimage">
+  <img src="./Assets/images/footerimage/facebook.png" alt="facebookimage">
+  <img src="./Assets/images/footerimage/instagram.png" alt="instagramimage">
+  <img src="./Assets/images/footerimage/youtube.png" alt="youtubeimage">
   </div>
 </div>
 
@@ -416,16 +395,41 @@ egestas ac.</p></div>
 
 
 
+
+
+         <!-- here the video popup starts -->
+            <section class="popup">
+    <div class="popup__content" >
+      <div class="close">
+        <span></span>
+        <span></span>
+      </div>
+
+    <iframe src="https://www.youtube.com/embed/il_t1WVLNxk?autoplay=1&mute=1" width="800px" height="400px" style="border:none;" ></iframe>
+    
+    </div>
+  </section>
+  <!-- here the video popup ends -->
+
        <!-- here the script file of the code -->
         <script src="./Assets/js/jquery.js"></script> 
         <script src="./Assets/js/slick.js"></script>
         <script src="./Assets/bootstrap/js/bootstrap.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
-        
-         <!-- aos animation -->
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-AOS.init();
+        <script>
+$(document).ready(function(){
+    $(".nav-toggler").click(function(){
+        $(this).toggleClass("active"); 
+        $(".nav-ul-listitems, .nav-login").slideToggle(100); 
+    });
+     $(".close").click(function() {
+      $(".popup").fadeOut(500);
+    });
+     $(".videoiconimg").click(function() {
+      $(".popup").fadeIn(300);
+    });
+});
 </script>
-    
+        
 </body>
 </html>

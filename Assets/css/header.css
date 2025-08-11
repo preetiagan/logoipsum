@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
     box-sizing:border-box;
     overflow-x: hidden;
 }
+/* common -css */
 .h1-main{
    font-family: 'calibri';
     font-size: 72px;
@@ -50,12 +52,6 @@ body{
     font-weight: 400;
     line-height: 115.99999999999999%;   
     cursor:pointer;
-
-
-
-
-    
-   
 }
 .para-main2{
      font-family:"Lexend Deca";
@@ -69,12 +65,75 @@ body{
      max-width:600px;
      padding-bottom: 10px;
 }
+/* here the custom fonts */
  @font-face {
         font-family: 'calibri';
         src: url('../calibri-font-family/calibri-bold.ttf') format('truetype');
              
         font-weight:600; 
  }
+
+
+
+
+
+.nav-toggler {
+ 
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.nav-toggler span {
+    width: 25px;
+    height: 3px;
+    background-color: #004C5E;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+
+@media (max-width: 768px) {
+    .nav-div-main {
+        flex-wrap: wrap;
+    }
+
+    .nav-ul-listitems,
+    .nav-login {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: #F2F7FA;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .nav-ul-listitems.show,
+    .nav-login.show {
+        display: flex;
+        animation: slideDown 0.3s ease forwards;
+    }
+
+  
+    .nav-toggler {
+        display: flex;
+    }
+}
+
+@keyframes slideDown {
+    0% {opacity: 0; transform: translateY(-10px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+.nav-toggler.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.nav-toggler.active span:nth-child(2) {
+    opacity: 0;
+}
+.nav-toggler.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
 
 /* here the navbar css */
 nav{
@@ -266,6 +325,11 @@ cursor: pointer;
     max-width:630px;
     padding-bottom:10px;
 }
+@media (max-width:425px){
+    .wrapper-section1-right {
+    display: none;
+}
+}
 /* here the  section 2 css */
 .btn-main{
     color:#004C5D;
@@ -288,4 +352,79 @@ letter-spacing:0;
 }
 .inner-image-left-section2{
     max-width:530px;
+}
+@media (max-width:320px){
+    .inner-wrapper-section2 {
+    flex-wrap: wrap;
+}
+.inner-wrapper-section2 {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+img.inner-image-left-section2 {
+    max-width: 250px;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 0px!important;
+}
+
+.inner-content-section2 {
+    text-align: center;
+}
+}
+@media (max-width:375px){
+    .inner-wrapper-section2 {
+    flex-wrap: wrap;
+}
+.inner-wrapper-section2 {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+img.inner-image-left-section2 {
+    max-width: 294px;
+    margin: 0 auto;
+    padding-left:80px;
+    align-items: center;
+}
+
+.inner-content-section2 {
+    text-align: center;
+}
+}
+@media (max-width:425px){
+   .inner-wrapper-section2 {
+    flex-wrap: wrap;
+}
+img.inner-image-left-section2 {
+    max-width: 294px;
+    margin: 0 auto;
+    padding-left:80px;
+    align-items: center;
+}
+.inner-wrapper-section2 {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+.inner-content-section2 {
+    text-align: center;
+} 
+}
+.section2{
+    padding-top: 70px;
+}
+.section3{
+    padding-top: 70px;
+}
+.section4{
+    padding-top: 70px;
+}
+.section6{
+    padding-top: 70px;
+}
+.section7{
+    padding-top: 70px;
 }
