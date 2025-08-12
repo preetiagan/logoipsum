@@ -6,9 +6,53 @@ $(document).ready(function(){
 $('.slider-products').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
-  autoplay: false,
+  autoplay: true,
+  centerMode:true,
   autoplaySpeed: 1000,
   arrows:false,
+    responsive: [
+    {
+      breakpoint: 1024, // Applies to screens up to 1024px wide
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false 
+      }
+    },
+    {
+      breakpoint: 425, 
+      settings: {
+    slidesToShow: 1,      
+    infinite: true,
+      }
+    },
+    {
+      breakpoint:320, 
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        
+ 
+        arrows: false 
+      }
+    }
+  ]
 });
 $('.slider-portfolio').slick({
   infinite: true,
@@ -27,38 +71,35 @@ $('.slider-portfolio').slick({
       }
     },
     {
-      breakpoint: 768, // Applies to screens up to 768px wide
+      breakpoint: 768, 
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1
       }
     },
     {
-      breakpoint: 480, // Applies to screens up to 480px wide
+      breakpoint: 480, 
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false // Example: Disable arrows on small screens
+        arrows: false 
       }
     },
     {
-      breakpoint: 425, // Applies to screens up to 480px wide
+      breakpoint: 425, 
       settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-       
- 
-        arrows: false // Example: Disable arrows on small screens
+    slidesToShow: 1,      
+    infinite: true,
       }
     },
     {
-      breakpoint:320, // Applies to screens up to 480px wide
+      breakpoint:320, 
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
         
  
-        arrows: false // Example: Disable arrows on small screens
+        arrows: false 
       }
     }
   ]
