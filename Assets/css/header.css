@@ -97,6 +97,8 @@ body{
 @media (max-width: 768px) {
     .nav-div-main {
         flex-wrap: wrap;
+
+        
     }
 
     .nav-ul-listitems,
@@ -118,6 +120,7 @@ body{
   
     .nav-toggler {
         display: flex;
+
     }
 }
 
@@ -345,6 +348,7 @@ line-height:100%;
 letter-spacing:0;
 
 }
+   
 .inner-wrapper-section2{
     display: flex;
     gap:62px;
@@ -354,6 +358,19 @@ letter-spacing:0;
     max-width:530px;
 }
 @media (max-width:320px){
+    .section1{
+    padding-top: 180px !important;
+}
+    .slider-portfolio-card {
+        text-align: center;
+    }
+    .portfolioinnerimg {
+        max-width: 302px;
+        cursor: pointer;
+        object-fit: cover;
+        align-items: center;
+        margin: 0 auto;
+    }
     .inner-wrapper-section2 {
     flex-wrap: wrap;
 }
@@ -374,6 +391,26 @@ img.inner-image-left-section2 {
 }
 }
 @media (max-width:375px){
+    .section1{
+    padding-top: 90px !important;
+}
+    .slider-portfolio-card {
+        text-align: center;
+    }
+    .portfolioinnerimg {
+        max-width: 302px;
+        cursor: pointer;
+        object-fit: cover;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .inner-right-card-section3 {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    max-width: 100% !important;
+    height: auto;
+   
+}
     .inner-wrapper-section2 {
     flex-wrap: wrap;
 }
@@ -383,9 +420,9 @@ img.inner-image-left-section2 {
     align-items: center;
 }
 img.inner-image-left-section2 {
-    max-width: 294px;
+    max-width: 100%;
     margin: 0 auto;
-    padding-left:80px;
+   
     align-items: center;
 }
 
@@ -394,13 +431,66 @@ img.inner-image-left-section2 {
 }
 }
 @media (max-width:425px){
+    .section1{
+    padding-top: 90px !important;
+}
+    .slider-portfolio-card {
+        text-align: center;
+    }
+    .portfolioinnerimg {
+        max-width: 302px;
+        cursor: pointer;
+        object-fit: cover;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .portfolionew1 {
+    padding-bottom: 0px !important;
+}
+    .inner-right-card-section3 {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    max-width: 100% !important;
+    height: auto;
+   
+}
+        .portfolioinnerimg {
+        max-width: 273px !important;
+        cursor: pointer;
+    }
+    .portfolionew {
+    padding-top: 0px !important;
+}
+    .slider-portfolio-card {
+    max-width: 100% !important;
+}
+    .section5 {
+    padding-bottom: 0px !important;
+}
+     .button-wrapper-main {
+        display: flex
+;
+        gap: 53px !important;
+        align-items: center;
+    }
+    .slider-portfolio-card {
+   
+    background-color: #004C5D;
+    border-radius: 20px;
+    padding: 9px;
+}
+        .h1-main {
+        font-family: 'calibri';
+        font-size: 47px !important;
+        color: #000000;
+        }
    .inner-wrapper-section2 {
     flex-wrap: wrap;
 }
 img.inner-image-left-section2 {
-    max-width: 294px;
+    max-width: 100%;
     margin: 0 auto;
-    padding-left:80px;
+    
     align-items: center;
 }
 .inner-wrapper-section2 {
@@ -427,4 +517,170 @@ img.inner-image-left-section2 {
 }
 .section7{
     padding-top: 70px;
+}
+@media (max-width:768px){
+    .section1{
+    padding-top: 90px !important;
+}
+    .section4{
+        display: none;
+    }
+    .h1-main {
+    font-family: 'calibri';
+    font-size: 56px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 118%;
+    cursor: pointer;
+}
+.para-main {
+    font-family: "lexend deca";
+    font-size: 19px;
+}
+.btn-getstarted {
+    color: #FFAE2E;
+    font-family: lexend deca;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 4px 24px;
+    border-radius: 80px;
+}
+.videoiconimg {
+    max-width: 28px;
+    object-fit: fill;
+    cursor: pointer;
+}
+.button-wrapper-main {
+    display: flex
+;
+    gap: 9px;
+    align-items: center;
+}
+.para-see {
+    font-family: lexend deca;
+    font-weight: 300;
+    font-size: 11px;
+}
+.inner-image-left-section2 {
+    max-width: 353px;
+}
+.inner-content-section3 {
+    width: 100% !important;
+    align-content: center;
+    text-align: center;
+}
+.inner-wrapper-section3 {
+    display: flex
+;
+    flex-wrap: wrap;
+}
+.inner-right-section3 {
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 8px !important;
+    width: 100% !important;
+    align-items: center;
+    align-self: center;
+    padding-top: 10px;
+}
+.wrapper-section4 {
+    max-width: 100%;
+    background-color: #004C5D;
+    padding: 66px;
+    position: relative;
+}
+
+
+.inner-wrapper-img-section4 {
+    padding-left:0px!important;
+}
+img.section4bottomimg {
+    margin: -69px 0 0 -74px;
+    max-width: 293px;
+}
+.inner-wrapper-content-section4 {
+    align-content: center;
+    padding-top: 30px;
+}
+.inner-wrapper-section4 {
+    display: flex
+;
+    align-content: center;
+    gap: 16px;
+}   
+.portfolioinnerimg {
+    max-width: 227px !important;
+    cursor: pointer;
+}
+.reviews-section {
+        display: flex
+;
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 15px;
+        flex-wrap: wrap;
+        gap: 34px;
+        align-items: center;
+    }
+}
+@media(max-width:1024px){
+    .wrapper-footer-right {
+    width: 50%;
+    display: flex;
+    gap: 47px;
+}
+.wrapper-inner-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+}
+
+.reviews-section {
+    display: flex;
+        max-width: 1440px !important;
+    margin: 0px auto;
+    padding: 24px !important;
+  gap: 24px !important;
+}
+.portfolioinnerimg {
+    max-width: 224px!important;
+}
+.inner-wrapper-section3{
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+.inner-wrapper-img-section4 {
+    padding-left: 153px !important;
+}
+.inner-wrapper-content-section4 {
+    align-content: center;
+    padding-top: 45px;
+}
+img.section4topimg {
+    max-width: 300px;
+}
+.inner-wrapper-section4 {
+    display: flex
+;
+    gap: 16px;
+    align-content: center;
+}
+}
+
+
+
+.navbar-overlay {
+  position: fixed; /* or absolute, depending on desired behavior */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Higher value ensures it's on top of other content */
+ 
+}
+.section1{
+    padding-top: 120px;
 }
