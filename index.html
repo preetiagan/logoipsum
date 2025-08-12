@@ -22,38 +22,39 @@
 
 <!-- here the header starts -->
        <header>
-        <nav class="navbar-overlay sticky-top"> 
-    <div class="container">
-        <div class="nav-div-main">
-            <div class="navlogo">
-                <img class="logo" src="./Assets/images/headerimage/logomain.png" alt="mainlogo">
-            </div>
+ 
 
-            <!-- Hamburger Icon -->
-            <div class="nav-toggler active">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+<nav class="navbar-overlay sticky-top">
+  <div class="container">
+    <div class="nav-div-main">
+      <div class="navlogo">
+        <img class="logo" src="./Assets/images/headerimage/logomain.png" alt="mainlogo">
+      </div>
 
-            <!-- Navigation Links -->
-            <div class="nav-listitems">
-                <ul class="nav-ul-listitems">
-                    <li class="nav-li"><a class="home" href="#">HOME</a></li>
-                    <li class="nav-li"><a href="#">SERVICES</a></li>
-                    <li class="nav-li"><a href="#">CONTACT</a></li>
-                    <li class="nav-li"><a href="#">ABOUT</a></li>
-                </ul>
-            </div>
+      <!-- Hamburger Icon -->
+      <div class="nav-toggler active" id="nav-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-            <!-- Login/Signup Buttons -->
-            <div class="nav-login">
-                <button class="login">Log In</button>
-                <button class="signup">Sign up</button>
-            </div>
-        </div>
+      <!-- Navigation Links -->
+      <ul class="nav-ul-listitems" id="nav-menu">
+        <li class="nav-li"><a class="home" href="#">HOME</a></li>
+        <li class="nav-li"><a href="#">SERVICES</a></li>
+        <li class="nav-li"><a href="#">CONTACT</a></li>
+        <li class="nav-li"><a href="#">ABOUT</a></li>
+      </ul>
+
+      <!-- Login/Signup Buttons -->
+      <div class="nav-login" id="nav-login">
+        <button class="login">Log In</button>
+        <button class="signup">Sign up</button>
+      </div>
     </div>
+  </div>
 </nav>
+
 
 
 
@@ -393,11 +394,7 @@ egestas ac.</p></div>
        </footer>
        <!-- here the footer section ends -->
 
-
-
-
-
-         <!-- here the video popup starts -->
+       <!-- here the video popup starts -->
             <section class="popup">
     <div class="popup__content" >
       <div class="close">
@@ -418,10 +415,21 @@ egestas ac.</p></div>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" ></script>
         <script>
 $(document).ready(function(){
-    $(".nav-toggler").click(function(){
-        $(this).toggleClass("active"); 
-        $(".nav-ul-listitems, .nav-login").slideToggle(100); 
-    });
+   
+  $("#nav-toggler").click(function(){
+    $(this).toggleClass("active");
+    $("#nav-menu, #nav-login").slideToggle(300);
+  });
+
+  
+  $(".nav-li a").click(function(){
+    if ($(window).width() <= 991) {
+      $("#nav-toggler").removeClass("active");
+      $("#nav-menu, #nav-login").slideUp(300);
+    }
+  });
+
+
      $(".close").click(function() {
       $(".popup").fadeOut(500);
     });
