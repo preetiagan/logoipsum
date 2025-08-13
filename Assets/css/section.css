@@ -40,11 +40,11 @@ padding-top: 6px;
 .inner-right-section3 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    width: 70%;
+    gap: 31px;
+    width: 70%; 
 }
 .inner-content-section3{
-    width:39%;
+    width:30%;
     align-content:center;
 }
 @media (max-width:320px){
@@ -676,6 +676,7 @@ form {
 button:hover {
         background-color: #f57f17;
     }
+    
 
     /* media query for the footer */
 @media (max-width: 740px) {

@@ -1,6 +1,21 @@
 
 /* goggle fonts Lexend Deca */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Deca:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Calibri';
+    src: url('../font/Calibri-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../font/Calibri.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 html {
   scroll-behavior: smooth;
@@ -23,8 +38,8 @@ body{
 }
 /* common -css */
 .h1-main{
-   font-family: 'calibri';
-    font-size: 72px;
+   font-family: 'Calibri';
+    font-size: 65px;
     color:#000000;
     font-weight: 700;
     line-height: 118%;
@@ -42,6 +57,7 @@ body{
 .para-main{
    font-family: "lexend deca";
     font-size: 24px;
+    color:#464C51;
     font-weight: 400;
     line-height: 115.99999999999999%;   
     cursor:pointer;
@@ -49,16 +65,18 @@ body{
 .para-main1{
    font-family: "lexend deca";
     font-size: 18px;
+     color:#464C51;
     font-weight: 400;
     line-height: 115.99999999999999%;   
     cursor:pointer;
+        padding-bottom: 10px;
 }
 .para-main2{
      font-family:"Lexend Deca";
-    font-size:20px;
+    font-size:18px;
     color:#ffffff;
     font-family: "lexend deca";
-    font-weight: 400;
+    font-weight: 300;
     line-height: 115.99999999999999%;   
     cursor:pointer;
     opacity: 60%;
@@ -303,7 +321,7 @@ margin:0 auto;
     background-color:#004C5D;
     max-width:381px;
     border-radius: 20px;
-    padding:9px;
+    padding:15px;
 }
 .btn-getstarted{
     color:#FFAE2E;
@@ -314,6 +332,9 @@ margin:0 auto;
     padding:11px 31px;
     border-radius: 80px;
 cursor: pointer;
+}
+.btn-getstarted:hover{
+    color:#ffffff;
 }
 .button-wrapper-main{
     display: flex;
@@ -345,6 +366,21 @@ cursor: pointer;
     padding-bottom:10px;
 }
 @media (max-width:425px){
+    .nav-login {
+    display: flex
+;
+    gap: 15px;
+    flex-direction: row-reverse;
+}
+    .nav-ul-listitems {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: flex-start;
+        padding-top: 32px;
+        padding-left: 47px;
+    }
     .wrapper-section1-right {
     display: none;
 }
@@ -358,8 +394,8 @@ cursor: pointer;
     padding:11px 41px;
     border:#FFAE2E;
 cursor: pointer;
-font-weight: 400;
-font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
 line-height:100%;
 letter-spacing:0;
 
@@ -374,6 +410,13 @@ letter-spacing:0;
     max-width:530px;
 }
 @media (max-width:320px){
+    .wrapper-section1-left {
+    width: 100% !important;
+    padding-top: 10px !important;
+    margin: 0 auto;
+    text-align: center;
+}
+
    .nav-ul-listitems {
     display: flex
 ;
@@ -437,15 +480,26 @@ img.inner-image-left-section2 {
 }
 }
 @media (max-width:375px){
-    .nav-ul-listitems {
+    .wrapper-section1-left {
+    width: 100% !important;
+    padding-top: 10px !important;
+    margin: 0 auto;
+    text-align: center;
+}
+    .nav-login {
     display: flex
 ;
-    gap: 70px;
-    list-style-type: none;
-    text-decoration: none;
-    align-items: flex-start;
-    padding-top: 18px;
-    padding-left: 35px;
+    gap: 15px;
+    flex-direction: row-reverse;
+}
+    .nav-ul-listitems {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: flex-start;
+        padding-top: 32px;
+        padding-left: 47px;
     }
     .section8
 
@@ -507,6 +561,12 @@ img.inner-image-left-section2 {
 }
 }
 @media (max-width:425px){
+      .wrapper-section1-left {
+    width: 100% !important;
+    padding-top: 10px !important;
+    margin: 0 auto;
+    text-align: center;
+}
     .section8
 {
     padding-bottom: 10px !important;
@@ -612,15 +672,33 @@ img.inner-image-left-section2 {
     padding-top: 70px;
 }
 .section4{
-    padding-top: 70px;
+    padding-top: 10px;
 }
 .section6{
-    padding-top: 70px;
+    padding-top: 0px;
+}
+.newsletter-container{
+    padding-top:57px!important;
 }
 .section7{
-    padding-top: 70px;
+    padding-top: 5px;
 }
 @media (max-width:768px){
+    .nav-login {
+    display: flex
+;
+    gap: 15px;
+    flex-direction: row-reverse;
+}
+    .nav-ul-listitems {
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        align-items: flex-start;
+        padding-top: 32px;
+        padding-left: 47px;
+    }
     .para-section6{
         font-size:15px!important;
     }
@@ -732,7 +810,7 @@ img.section4bottomimg {
 }
 .inner-wrapper-content-section4 {
     align-content: center;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 .inner-wrapper-section4 {
     display: flex
@@ -807,5 +885,14 @@ img.section4topimg {
   z-index: 999; 
  }
 .section1{
-    padding-top: 120px;
+    padding-top: 170px;
+}
+
+
+.inner-wrapper-section3 {
+    gap: 37px;
+}
+.wrapper-section1-left{
+    width:50%;
+    padding-top:100px;
 }
